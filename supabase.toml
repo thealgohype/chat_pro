@@ -5,7 +5,7 @@ image = "supabase/postgres:latest"
 port = "8000"
 
 [env]
-PYTHON_VERSION = "3.9"
+PYTHON_VERSION = "3.10.4"
 
 [build.steps]
 install = [
