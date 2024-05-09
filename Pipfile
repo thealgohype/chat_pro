@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pymongo = "*"
+rest_framework = "*"
+django-cors-headers= "*"
+langchain-openai ="*"
+langchain-anthropic ="*"
+pydantic ="*"
+langchain-google-genai ="*"
+langchain ="*"
+langchain-core ="*"
+langchain-groq ="*"
+dnspython ="*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
